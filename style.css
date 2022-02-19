@@ -1,6 +1,17 @@
+body {
+  background-color: green;
+}
+* {
+  outline: none;
+}
 textarea#editor {
-  border-radius: 5px;
   background-color: black;
+  font-family: monospace;
   color: white;
   padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+textarea::selection {
+  background-color: green;
 }
